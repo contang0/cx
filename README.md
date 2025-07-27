@@ -7,13 +7,13 @@ A simple cross-platform CLI tool that runs `claude --dangerously-skip-permission
 ### Option 1: Install globally via npm (recommended)
 
 ```bash
-npm install -g https://github.com/yourusername/cx.git
+npm install -g https://github.com/contang0/cx.git
 ```
 
 ### Option 2: Clone and install locally
 
 ```bash
-git clone https://github.com/yourusername/cx.git
+git clone https://github.com/contang0/cx.git
 cd cx
 npm install -g .
 ```
@@ -21,7 +21,7 @@ npm install -g .
 ### Option 3: Clone and link for development
 
 ```bash
-git clone https://github.com/yourusername/cx.git
+git clone https://github.com/contang0/cx.git
 cd cx
 npm link
 ```
