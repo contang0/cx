@@ -1,5 +1,9 @@
 # cx - Claude CLI Wrapper
 
+> ⚠️ **WARNING**: This tool runs `claude --dangerously-skip-permissions`, which bypasses security prompts and allows Claude to perform actions without asking for confirmation. This flag should only be used when you fully trust the commands being executed and understand the risks involved. The `--dangerously-skip-permissions` flag can potentially allow destructive operations without warning.
+>
+> **DISCLAIMER**: The author of cx takes no responsibility for any damage, data loss, or security issues that may arise from using this tool. Use at your own risk.
+
 A simple cross-platform CLI tool that runs `claude --dangerously-skip-permissions`.
 
 ## Installation
