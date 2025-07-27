@@ -14,6 +14,23 @@ A simple cross-platform CLI tool that runs `claude --dangerously-skip-permission
 npm install -g https://github.com/contang0/cx.git
 ```
 
+#### Ubuntu/Linux users
+If you encounter permission errors, you have several options:
+
+**Use sudo (simplest):**
+```bash
+sudo npm install -g https://github.com/contang0/cx.git
+```
+
+**Change npm's default directory (recommended for avoiding future permission issues):**
+```bash
+mkdir ~/.npm-global
+npm config set prefix '~/.npm-global'
+echo 'export PATH=~/.npm-global/bin:$PATH' >> ~/.bashrc
+source ~/.bashrc
+npm install -g https://github.com/contang0/cx.git
+```
+
 ### Option 2: Clone and install locally
 
 ```bash
