@@ -6,9 +6,7 @@
   "bin": {
     "cx": "./cx.js"
   },
-  "scripts": {
-    "postinstall": "node install.js"
-  },
+  "scripts": {},
   "keywords": ["claude", "cli", "wrapper"],
   "author": "",
   "license": "MIT",
